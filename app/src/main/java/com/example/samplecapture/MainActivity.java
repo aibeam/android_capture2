@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity implements AutoPermissionsLi
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             imageView.setImageBitmap(imageBitmap);
+            //저장되는 코드는 아래에 작성해야 함.
         }
     }
 
